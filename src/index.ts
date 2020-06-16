@@ -4,5 +4,5 @@ import App from './ts/App'
 
 const app = new App()
 
-app.setTitle('Webpack Typescript Boilerplate')
+app.setTitle('Webpack TypeScript Boilerplate')
 app.render()

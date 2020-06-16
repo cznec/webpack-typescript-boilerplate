@@ -54,7 +54,7 @@ module.exports = {
      * Generates an HTML file from a template.
      */
     new HtmlWebpackPlugin({
-      title: 'Webpack Typescript Boilerplate',
+      title: 'Webpack TypeScript Boilerplate',
       favicon: paths.static + '/favicon.png',
       template: paths.src + '/index.html', // template file
       filename: 'index.html', // output file
@@ -69,9 +69,9 @@ module.exports = {
   module: {
     rules: [
       /**
-       * Typescript
+       * TypeScript
        *
-       * Use ts-loader to transpile Typescript files.
+       * Use ts-loader to transpile TypeScript files.
        */
       {
         test: /\.tsx?$/,
