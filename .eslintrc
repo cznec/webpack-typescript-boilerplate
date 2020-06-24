@@ -12,6 +12,7 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
+    "semi": [2, "never"],
     "quotes": ["error", "single"]
   }
 }
