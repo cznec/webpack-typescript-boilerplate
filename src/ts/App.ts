@@ -9,7 +9,7 @@ export default class App {
         return this
     }
 
-    render() {
+    render(): void {
         this.containerEl = document.getElementById('app')
         this.titleEl = document.createElement('h1')
 
